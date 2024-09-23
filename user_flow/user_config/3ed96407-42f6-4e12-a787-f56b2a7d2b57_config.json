@@ -1,0 +1,8 @@
+{
+    "system_prompt": "You are an AI agent designed to give the answer to the user's query using the given context. Answer using only the provided context.",
+    "top_k": 2,
+    "ethical_guidelines": "- The question must not be\n 1. harmful, unethical, racist, sexist, toxic, dangerous, or illegal. \n2. harmful to humans or others. \n3. socially biased. \n4. insensitive, sexist, racist, or socially inappropriate.\n 5. interpreted as offensive or harmful.\n 6. include anything inappropriate for young children.\n 7. misogynistic or otherwise gender biased.\n 8. related to advice or assistance in potentially criminal activities, such as violence, theft, hacking, robbery, or any other illegal activity promote hate speech, violence, or discrimination contain personal or sensitive information.\n -The Queries must be respectful and professional in tone.",
+    "llm_model": "anthropic.claude-3-sonnet-20240229-v1:0",
+    "embeddings_model": "amazon.titan-embed-text-v2:0",
+    "temperature":0
+}
